@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <meta name="keywords" content="苏宁易购"/>
+    <meta name="description" content="苏宁易购"/>
+    <!--Logo的引入-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <!--工具样式的引入-->
+    <link rel="stylesheet" href="css/base.css">
+    <!--清除浏览器默认的样式的引入-->
+    <link rel="stylesheet" href="css/reset.css">
+    <!--当前页面样式的引入-->
+    <link rel="stylesheet" href="css/login.css">
+
+    <link rel="stylesheet" href="css/index.css">
+    <!--行为的引入-->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/animation.js"></script>
+</head>
+<body>
+
+<!--头部开始-->
+<header>
+    <div class="head-box">
+        <div class="head-box-in public-Tool-Height clearfix">
+            <!--Left Logo区域-->
+            <a href="index.html" class="logo public-Tool-Height fl"></a>
+            <!--Right 内容区域-->
+            <div class="head-box-right clearfix">
+                <div class="head-box-right-in">
+                    <div class="bind-phone fl">
+                        依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号绑定验证！
+                        <a href="javascript:;">
+                            <font color="#f60">《隐私政策》</font>
+                        </a>
+                        已上线，将更有利于保护您的个人隐私。
+                    </div>
+                </div>
+                <a href="javascript:;" class="advise fr">
+                    <i class="fl"></i>
+                    我想对“登录”提意见
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<!--头部结束-->
+
+<!--中部内容区域开始-->
+<div class="main">
+    <div class="main-in public-Tool-Height clearfix">
+        <a href="javascript:;" class="single-link fl public-Tool-Height"></a>
+        <div class="login-form fr">
+            <!--选项卡TAB-->
+            <div class="login-tab">
+                <a href="javascript:;" class="tab-item on">
+                    <span>扫码登录</span>
+                    <i></i>
+                </a>
+                <a href="javascript:;" class="tab-item">
+                    <span>账户登录</span>
+                    <i></i>
+                </a>
+            </div>
+
+            <!--内容区域-->
+            <div class="scan-login Tab-item">
+                <div class="scan-box clearfix">
+                    <div class="qrcode">
+                        <img src="images/login-img-04.png">
+                    </div>
+                    <div class="phone-scan"></div>
+                </div>
+                <p class="open-app">
+                    <i></i>
+                    打开
+                    <a href="javascript:;">
+                        <em>苏宁易购APP</em>
+                    </a>
+                    扫码登录
+                </p>
+            </div>
+            <div class="pc-login">
+                <div class="username-login Tab-item">
+                    <form action="#" method="post">
+                        <!--验证提示区域-->
+                        <div class="login-error-height">
+                            <div class="login-error clearfix">
+                                <i class="fl"></i>
+                                <span class="Prompt-information">请输入用户名/邮箱/手机号！</span>
+                            </div>
+                        </div>
+
+                        <!--用户名/手机/邮箱-->
+                        <div class="username-box">
+                            <div class="input-box">
+                                <input id="userName" type="text" value="" tabindex="1" maxlength="64" placeholder="用户名/手机/邮箱"/>
+                                <i class="icon username-icon"></i>
+                            </div>
+                        </div>
+
+                        <!--密码-->
+                        <div class="password-box">
+                            <div class="input-box">
+                                <input id="password" type="password" autocomplete="off" tabindex="2" placeholder="密码"/>
+                                <i class="icon password-icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="login-help clearfix">
+                            <a href="javascript:;" class="login-switch fl">
+                                <i></i>
+                                短信验证码登录
+                            </a>
+                            <a href="javascript:;" class="forget-password fr">
+                                忘记密码？
+                            </a>
+                        </div>
+
+                        <a href="javascript:;" class="login-submit">
+                            登 录
+                        </a>
+                    </form>
+                </div>
+            </div>
+            <div class="free-reg">
+                <a href="registered.html">
+                    免费注册 有惊喜 >
+                </a>
+            </div>
+
+            <!--底部区域-->
+            <div class="bind-login">
+                <span class="title">使用以下账号登录</span>
+                <div class="common clearfix">
+                    <a href="javascript:;" class="qq">
+                        <i></i>
+                        QQ
+                    </a>
+                    <a href="javascript:;" class="weixin">
+                        <i></i>
+                        微信
+                    </a>
+                    <a href="javascript:;" class="yifubao">
+                        <i></i>
+                        易付宝
+                    </a>
+                    <a href="javascript:;" class="weibo">
+                        <i></i>
+                        微博
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--中部内容区域结束-->
+
+<!--底部内容区域开始-->
+<div class="footer">
+    <div class="footer-bottom">
+        <div class="footer-in div-in">
+            <p class="footer-line">
+                <a href="#">苏宁互联</a>
+                <span>|</span>
+                <a href="#">苏宁金融</a>
+                <span>|</span>
+                <a href="#">苏宁支付</a>
+                <span>|</span>
+                <a href="#">PP视频</a>
+                <span>|</span>
+                <a href="#">红孩子</a>
+                <span>|</span>
+                <a href="#">苏宁物流</a>
+                <span>|</span>
+                <a href="#">手机苏宁 </a>
+                <span>|</span>
+                <a href="#">零售云</a>
+                <span>|</span>
+                <a href="#">苏宁云</a>
+                <span>|</span>
+                <a href="#">知识产权举报</a>
+                <span>|</span>
+                <a href="#">投资者关系</a>
+            </p>
+            <p class="footer-line">
+                <a href="#">联系我们</a>
+                <span>|</span>
+                <a href="#">诚聘英才</a>
+                <span>|</span>
+                <a href="#">供应商入驻</a>
+                <span>|</span>
+                <a href="#">广告平台</a>
+                <span>|</span>
+                <a href="#">苏宁联盟</a>
+                <span>|</span>
+                <a href="#">苏宁招标</a>
+                <span>|</span>
+                <a href="#">友情链接</a>
+                <span>|</span>
+                <a href="#">隐私政策</a>
+                <span>|</span>
+                <a href="#">用户体验提升计划</a>
+                <span>|</span>
+                <a href="#">股东会员认证</a>
+            </p>
+            <p>
+                Copyright© 2002-2019，苏宁易购集团股份有限公司版权所有
+                <span>|</span>
+                <a href="#"><img src="images/gwab-icon.png" alt=""></a>
+                <a href="#">苏公网安备 32010202010078号</a>
+                <span>|</span>
+                <a href="#">苏ICP备10207551号-4</a>
+            </p>
+            <p>
+                <a href="#">合字B2-20180025</a>
+                <span>|</span>
+                <a href="#">合字A1.B1.B2-20180017</a>
+                <span>|</span>
+                <a href="#">出版物经营许可证新出发苏批字第A-243号</a>
+                <span>|</span>
+                互联网药品信息服务资格证书（苏）-非经营性-2016-0005
+            </p>
+            <p>
+                <a href="#">经营证照</a>
+                <span>|</span>
+                <a href="#">医疗器械网络交易服务第三方平台备案凭证-（苏）网械平台备字（2018）第00052号</a>
+                <span>|</span>
+                <a href="#">网络文化经营许可证：苏网文〔2018〕10580-203号</a>
+            </p>
+            <p>
+                本网站直接或间接向消费者推销商品或者服务的商业宣传均属于“广告”（包装及参数、售后保障等商品信息除外
+            </p>
+            <p>
+                <a href="#"><img src="images/footer-bootom1.png" alt=""></a>
+                <a href="#"><img src="images/footer-bootom2.png" alt=""></a>
+                <a href="#"><img src="images/footer-bootom3.png" alt=""></a>
+                <a href="#"><img src="images/footer-bootom4.jpg" alt=""></a>
+                <a href="#"><img src="images/footer-bootom5.png" alt=""></a>
+            </p>
+        </div>
+    </div>
+</div>
+<!--底部内容区域结束-->
+
+</body>
+</html>

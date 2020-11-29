@@ -1,0 +1,325 @@
+a{
+    color: #333;
+}
+
+/*覆盖不需要的样式*/
+.footer{
+    height: 0 !important;
+}
+
+/*头部样式开始*/
+.head-box{
+    height: 100px;
+}
+.head-box>.head-box-in{
+    width: 970px;
+    /*居中*/
+    margin: 0 auto;
+}
+.head-box>.head-box-in>.logo{
+    width: 189px;
+    background: url("./../images/login-img-01.png") center no-repeat;
+}
+.head-box>.head-box-in>.head-box-right{
+    margin-left: 189px;
+    padding: 37px 0 0 16px;
+}
+.head-box>.head-box-in>.head-box-right a{
+    color: #333;
+}
+.head-box>.head-box-in>.head-box-right>.head-box-right-in{
+    margin-right: -100px;
+}
+.head-box .bind-phone{
+    color: #333;
+    background: #fefff1;
+    border: 1px solid #fecd66;
+    line-height: 16px;
+    padding: 4px 6px;
+}
+.head-box .bind-phone>a:hover{
+    text-decoration: underline;
+}
+.head-box .advise{
+    margin-top: 8px;
+}
+.head-box .advise:hover{
+    color: #f60 !important;
+}
+.head-box .advise i{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-family: simsun;
+    background: url("./../images/login-img-02.png") no-repeat;
+    background-position: -67px -27px;
+}
+/*头部样式结束*/
+
+/*中部内容样式开始*/
+.main{
+    min-width: 970px;
+    height: 570px;
+    background: url("./../images/login-img-03.png") center no-repeat;
+}
+.main>.main-in{
+    width: 970px;
+    margin: 0 auto;
+}
+.main>.main-in>.single-link{
+    width: 570px;
+}
+.main>.main-in>.login-form{
+    position: relative;
+    width: 360px;
+    height: 410px;
+    margin-top: 50px;
+    background: #fff;
+    box-shadow: 0 0 2px #ececec;
+    font-family: "Microsoft Yahei";
+}
+.login-form .login-tab{
+    height: 50px;
+    line-height: 20px;
+    font-size: 16px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+.login-form .login-tab .tab-item{
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 50%;
+    text-decoration: none;
+    text-align: center;
+}
+.login-form .login-tab .tab-item span{
+    display: block;
+    border-right: 1px solid #eee;
+    margin-top: 15px;
+}
+.login-form .login-tab .tab-item.on i{
+    display: block;
+}
+.login-form .login-tab .tab-item.on,.login-form .login-tab .tab-item:hover{
+    color: #f60;
+}
+.login-form .login-tab .tab-item i{
+    display: none;
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background: #f60;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+/*---------------------内容区域---------------------*/
+.login-form .scan-login{
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+.login-form .scan-login .scan-box{
+    height: 156px;
+    padding: 20px 34px 0;
+    position: relative;
+    margin-bottom: 17px;
+}
+.login-form .scan-login .scan-box .qrcode{
+    width: 141px;
+    height: 141px;
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+}
+.login-form .scan-login .scan-box .qrcode img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.login-form .scan-login .scan-box .phone-scan{
+    display: none;
+    position: absolute;
+    top: -20px;
+    right: 34px;
+    width: 133px;
+    height: 200px;
+    background: url("./../images/login-img-05.png") no-repeat;
+}
+.login-form .scan-login .open-app{
+    margin-bottom: 7px;
+    text-align: center;
+    color: #333;
+}
+.login-form .scan-login .open-app i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    background: url("./../images/login-img-02.png")  no-repeat;
+    vertical-align: -3px;
+    background-position: -164px -67px;
+}
+.login-form .scan-login .open-app em{
+    color: #f60;
+}
+.login-form .free-reg{
+    text-align: center;
+    margin: 12px 0 35px;
+    display: block;
+}
+.login-form .bind-login{
+    position: relative;
+    width: 310px;
+    margin: 0 auto;
+    border-top: 1px solid #ddd;
+    padding: 19px 0 17px;
+}
+.login-form .bind-login .title{
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    margin-left: -64px;
+    color: #999;
+    width: 128px;
+    background: #fff;
+    text-align: center;
+}
+.login-form .bind-login .common a{
+    float: left;
+    padding: 0 7px;
+    border-right: 1px solid #dedcd5;
+    line-height: 16px;
+}
+.login-form .bind-login .common .qq{
+    padding-left: 0;
+}
+.login-form .bind-login .common .qq i {
+    background: url("./../images/login-img-02.png") -140px -108px no-repeat;
+}
+.login-form .bind-login .common a i{
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.login-form .bind-login .common .weixin i{
+    background: url("./../images/login-img-02.png") -90px -27px no-repeat;
+}
+.login-form .bind-login .common .yifubao i {
+    background: url("./../images/login-img-02.png") -119px -108px no-repeat;
+}
+.login-form .bind-login .common .weibo i {
+    background: url("./../images/login-img-02.png") 0 -149px no-repeat;
+}
+.login-form .bind-login .common a:hover{
+    color: #F60;
+    text-decoration: underline;
+}
+.login-form .pc-login .username-login{
+    padding: 0 24px;
+    display: none;
+}
+.login-form .pc-login .login-error i{
+    width: 16px;
+    height: 16px;
+    margin: 1px 8px 0 0;
+    background: url("./../images/login-img-02.png") -161px -108px no-repeat;
+}
+.login-error-height{
+    height: 32px;
+}
+.login-form .pc-login .login-error{
+    display: none;
+    padding: 2px 10px;
+    font-size: 12px;
+    color: #323232;
+    background: #fff0f0;
+    border: 1px solid #ff3c3c;
+    margin: 8px 0;
+}
+.login-form .pc-login .username-box{
+    position: relative;
+    clear: both;
+}
+.login-form .pc-login .password-box, .login-form .pc-login .phone-box, .login-form .pc-login .username-box, .login-form .pc-login .verify-box{
+    margin-bottom: 20px;
+}
+.login-form .pc-login .input-box{
+    position: relative;
+    border: 1px solid #ddd;
+    color: #999;
+    padding: 0 32px 0 36px;
+    height: 36px;
+    overflow: hidden;
+}
+.login-form .pc-login .input-box input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 36px;
+    padding: 0 32px 0 36px;
+    border: 0;
+    font-size: 14px;
+    margin-left: -36px;
+    outline: none;
+}
+.login-form .pc-login .input-box .username-icon{
+    background: url("./../images/login-img-02.png") -123px -67px no-repeat;
+}
+.login-form .pc-login .input-box .icon{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.login-form .pc-login .input-box .icon {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.login-form .pc-login .input-box .password-icon{
+    background: url("./../images/login-img-02.png") 0 -108px no-repeat;
+}
+.login-form .pc-login .username-login .login-help{
+    padding-top: 10px;
+}
+.login-form .pc-login .login-help{
+    line-height: 35px;
+    height: 35px;
+}
+.login-form .pc-login .login-help .login-switch{
+    text-decoration: none;
+}
+.login-form .pc-login .login-help .login-switch i{
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: -3px;
+}
+.login-form .pc-login .username-login .login-help i{
+    background: url("./../images/login-img-02.png") -21px -149px no-repeat;
+}
+.login-form .pc-login .login-submit{
+    display: block;
+    width: 310px;
+    line-height: 40px;
+    margin: 0 auto;
+    background: #f60;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+/*---------------------内容区域---------------------*/
+
+/*中部内容样式结束*/
